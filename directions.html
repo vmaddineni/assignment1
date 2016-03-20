@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="utf-8">
+        <title>Kati Rolls &raquo; Directions</title>
+        <meta name="description" content="Kati Rolls">
+        <link rel="stylesheet" href="_css/styles.css">
+     <script type="text/javascript">
+        function alertUser() {
+                
+                    alert("You are being redirected to Google Maps Page.");
+              
+            
+        }
+     </script>
+ </head>
+    
+    
+    <body>
+        
+        	<div class="logo">
+                <a href="home.html" title="img1" ><img src="_images/kati1.jpeg" widht="1000" alt="Kati Rolls" /></a>
+                
+            </div>
+        
+    <div id="tabs">
+      <nav>		
+        <ul>
+            <li id="menu-item-1"><a title="home" href="home.html">Home</a></li>
+            <li id="menu-item-3"><a title="directions" href="directions.html">Directions</a></li>
+            <li id="menu-item-4"><a title="contact" href="contact.html">Contact Us</a></li>
+        </ul>					
+      </nav>
+    </div>
+    
+     <h2>Get Directions</h2>
+        
+        <form name = "myForm" onsubmit="alertUser()" action="http://maps.google.com/maps" method="get"  target="_blank">
+            <div>Enter your address: <input type="text" name="saddr" style="width:250px;" /> &nbsp;&nbsp;&nbsp;&nbsp;  <input type="hidden" name="daddr" value="Times Square, Manhattan, NY 10036" /><input type="submit" value="Get Directions" /></div>
+        </form>
+        
+    
+        
+        <br/>
+        <br/>
+        
+        <div style="text-align:center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1421090609374!2d-73.98731968522551!3d40.758899042683105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1sen!2sus!4v1450034873655" width="800" height="600" frameborder="0" style="border:0"></iframe>
+        </div>
+        
+        
+        <div id="footer" class="footer">
+          <p>Copyright &copy; Kati Rolls, Times Square, Manhattan, NY</p>
+        </div>
+    
+    </body>
+    
+</html>
+

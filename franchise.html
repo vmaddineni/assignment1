@@ -8,11 +8,18 @@
      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+          <script type="text/javascript">
+        function alertUser() {
+                
+                    alert("We have received your email and we will contact you.");
+              
+            
+        }
+     </script>
  </head>
     
     
     <body>
-        
         	<div class="logo">
                 <a href="home.html" title="img1" ><img src="_images/kati1.jpeg" widht="1000" alt="Kati Roll" /></a>
                 
@@ -24,38 +31,34 @@
         <ul class="nav nav-tabs">
             <li id="menu-item-1"><a title="home" href="home.html">Home</a></li>
             <li id="menu-item-3"><a title="directions" href="directions.html">Directions</a></li>
-         <li id="menu-item-5"><a title="franchise" href="franchise.html">Directions</a></li>
+            <li id="menu-item-5"><a title="franchise" href="franchise.html">Directions</a></li>
 
             <li id="menu-item-4"><a title="contact" href="contact.html">Contact Us</a></li>
         </ul>					
       </nav>
     </div>
+
+    
+  <h1>Frnachise Options</h1>
+    Interesetd in franchise of Kati Rolls ? Please leave your email below. We will get back to you as soon as possible.
         
-   
+        
+        <div class="container">
+  <form role="form" name = "myForm" onsubmit="alertUser()" method="get"  target="_blank">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
     
-     
-    
-                            <br/>Times Square, Manhattan, NY 10036
-                            <br />
-                            Email: <a href="mailto:info@katiroll.com">info@katiroll.com</a>
-                            <br />
-                            Phone Number: 111-111-1111
-                            <br/>
-                            <br/>
-                         <div class="contact">
+    <button type="submit" class="btn btn-info">Submit</button>
+  </form>
+</div>
 
-                             <strong>Hours of Operation:</strong><br />
-                             <br/>
-                            Monday to Thursay: 11:30 AM to 2:00 AM</p>
-                            Friday to Sunay: 11:30 AM to 4:00 AM<br />
-                         </div>
-    
-
-            
-    
-            <div id="footer" class="footer">
-          <p>Copyright &copy; Kati Rolls, Times Square, Manhattan, NY</p>
+        <div id="footer" class="footer">
+          <p>Copyright &copy; Biryani Kart, Times Square, Manhattan, NY</p>
         </div>
+
+
     </body>
-    
+
 </html>

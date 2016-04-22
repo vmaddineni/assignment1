@@ -5,6 +5,9 @@
         <title>Kati Rolls &raquo; Directions</title>
         <meta name="description" content="Kati Rolls">
         <link rel="stylesheet" href="_css/styles.css">
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
      <script type="text/javascript">
         function alertUser() {
                 
@@ -25,9 +28,11 @@
         
     <div id="tabs">
       <nav>		
-        <ul>
+        <ul class="nav nav-tabs">
             <li id="menu-item-1"><a title="home" href="home.html">Home</a></li>
             <li id="menu-item-3"><a title="directions" href="directions.html">Directions</a></li>
+            <li id="menu-item-5"><a title="franchise" href="franchise.html">Directions</a></li>
+
             <li id="menu-item-4"><a title="contact" href="contact.html">Contact Us</a></li>
         </ul>					
       </nav>
@@ -36,7 +41,7 @@
      <h2>Get Directions</h2>
         
         <form name = "myForm" onsubmit="alertUser()" action="http://maps.google.com/maps" method="get"  target="_blank">
-            <div>Enter your address: <input type="text" name="saddr" style="width:250px;" /> &nbsp;&nbsp;&nbsp;&nbsp;  <input type="hidden" name="daddr" value="Times Square, Manhattan, NY 10036" /><input type="submit" value="Get Directions" /></div>
+            <div>Enter your address: <input type="text" name="saddr" style="width:250px;" /> &nbsp;&nbsp;&nbsp;&nbsp;  <input type="hidden" name="daddr" value="Times Square, Manhattan, NY 10036" /><input type="submit" class="btn btn-info" value="Get Directions" /></div>
         </form>
         
     

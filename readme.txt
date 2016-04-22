@@ -1,7 +1,14 @@
 Branch for Assignment2
-There are 3 html pages in the assignment.
+
+Added a new page franchise.html
+Added Bootstrap CSS for images for rounded corners.
+Added Bootstrap CSS for buttons.
+Added Bootstrap CSS for tabs.
+
+There are 4 html pages in the assignment.
  -- home.html
  -- directions.html
+ — franchise.html
  -- contact.html
  
 

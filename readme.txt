@@ -1,3 +1,4 @@
+Branch for Assignment2
 There are 3 html pages in the assignment.
  -- home.html
  -- directions.html

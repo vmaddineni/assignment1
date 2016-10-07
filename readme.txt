@@ -2,7 +2,8 @@ There are 3 html pages in the assignment.
  -- home.html
  -- directions.html
  -- contact.html
- 
+
+test.html
 
 
 CSS styles are located in styles.css file located under "_css" folder.
